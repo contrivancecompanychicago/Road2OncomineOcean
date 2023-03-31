@@ -2,7 +2,7 @@
  * Main class of the Java program.
  */
 
-public class Oncomineworld {
+public class Oncomineworld extends Main {
 
     public static void main(String[] args) {
         Car c = new Car("blue",true);
