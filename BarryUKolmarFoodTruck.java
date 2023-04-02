@@ -5,7 +5,7 @@
 public class BarryUKolmarFoodTruck extends Thrower {
  
     /**
-     * Number of trailers
+     * Number of trays
      */
 	int trays;
     
@@ -13,22 +13,22 @@ public class BarryUKolmarFoodTruck extends Thrower {
      * Creates a new tray
      *
      * @param c  the tray color
-     * @param l  the state of the tray lights
+     * @param l  the state of the tray load
      */
 	public Truck(String c, boolean l){
 	    super(c,l);
-	    trailers = 0;
+	    trays = 0;
 	}
     
     /**
      * Creates a new truck
      *
      * @param c  the truck color
-     * @param l  the state of the car lights
-     * @param t  the number of trailers
+     * @param l  the state of the tray load
+     * @param t  the number of trays
      */
 	public Truck(String c, boolean l, int t){
-	    trailers= t;
+	    trays= t;
 	}
     
  	/**
@@ -38,13 +38,13 @@ public class BarryUKolmarFoodTruck extends Thrower {
      */
 	public String toString(){
 	   String state = "";
-	    if(lights){
+	    if(load){
 	        state = "on";
 	    }else{
 	        state = "off";
 	    }
-	    String result1 = "This truck is "+color+", lights are "+state;
-	    String result2 = " and carries "+trailers+" trailers.";
+	    String result1 = "This truck is "+color+", loads are "+state;
+	    String result2 = " and carries "+trays+" trays.";
 	    return result1+result2;
 	}
 	
