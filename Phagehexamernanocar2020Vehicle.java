@@ -2,7 +2,7 @@
  * Vehicle class of the Java program.
  */
 
-public abstract class Phagehexamernanocar2020Vehicle {
+public interface Phagehexamernanocar2020VehicleIF {
 
     /**
      * The vehicle color
