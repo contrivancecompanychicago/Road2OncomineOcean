@@ -2,8 +2,9 @@
  * Car class of the Java program.
  */
 
-public class OfficermodusponensCar extends Oncomineworld{
-    
+public abstract class OfficermodusponensCar implements PhageHexamerNanoCar2020{
+    public abstract void play();
+	
     /**
      * Creates a new car
      *
