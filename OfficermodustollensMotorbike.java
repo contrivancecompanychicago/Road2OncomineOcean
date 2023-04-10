@@ -2,8 +2,8 @@
  * Motorbike class of the Java program.
  */
 
-public class OfficermodustollensMotorbike extends Oncomineworld {
- 
+public abstract class OfficermodustollensMotorbike implements Phagehexamernanocar2020Vehicle {
+ public abstract class play();
  	/**
      * Creates a new motorbike
      *
