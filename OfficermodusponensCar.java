@@ -2,7 +2,7 @@
  * Car class of the Java program.
  */
 
-public abstract class OfficermodusponensCar implements PhageHexamerNanoCar2020{
+public abstract class OfficermodusponensCar implements Phagehexamernanocar2020Vehicle {
     public abstract void play();
 	
     /**
